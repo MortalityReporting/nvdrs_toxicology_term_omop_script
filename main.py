@@ -303,7 +303,6 @@ if __name__=="__main__":
             concept_id = searched[0]
         else:
             concept_id = start_concept_id + i
-            i = i+1
 
         concept = {'concept_id': concept_id,
                'concept_name': substance_name,
